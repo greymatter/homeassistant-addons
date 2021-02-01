@@ -1,7 +1,9 @@
-# homeassistant-addons
-Home Assistant Add-on Repository (TESTING ONLY)
-Installation:
-Add this repository to your Home Assistant instance.
+# Home Assistant Add-on Repository
 
-Add-ons:
-Netbox
+## Installation:
+
+Add [this](https://github.com/greymatter/homeassistant-addons) repository to your Home Assistant instance. (i would not do this if i we're you...)
+
+## Add-ons:
+
+- [Netbox](https://github.com/greymatter/homeassistant-addons/tree/master/netbox)
