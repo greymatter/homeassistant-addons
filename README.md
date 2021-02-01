@@ -1,4 +1,4 @@
-# Home Assistant Add-on Repository
+# Home Assistant Add-on Repository (Personal Testing)
 
 ## Installation:
 
