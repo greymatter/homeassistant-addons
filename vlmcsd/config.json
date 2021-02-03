@@ -9,10 +9,10 @@
   "startup": "service",
   "boot": "auto",
   "ports": {
-        "1688/tcp": 1688,
+        "1688/tcp": 1688
   },
   "ports_description": {
-	  "1688/tcp": "KMS",
+	  "1688/tcp": "KMS"
   },
   "init": false,
   "stage": "experimental"
