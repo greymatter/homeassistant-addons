@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "slug": "vlmcsd",
   "description": "vlmcsd is a replacement for Microsoft's KMS server.",
-  "url": "https://github.com/greymatter/homeassistant-addons/tree/master/vlmcsd",
+  "url": "https://github.com/mikolatero/docker-vlmcsd",
   "image": "mikolatero/vlmcsd",
   "arch": ["amd64","aarch64"],
   "startup": "application",
