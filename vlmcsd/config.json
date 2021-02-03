@@ -6,7 +6,7 @@
   "url": "https://github.com/greymatter/homeassistant-addons/vlmcsd",
   "image": "greymatter/homeassistant-vlmcsd",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "startup": "service",
+  "startup": "application",
   "boot": "auto",
   "options": {},
   "schema": {},
