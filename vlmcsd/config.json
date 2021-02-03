@@ -9,6 +9,9 @@
   "startup": "application",
   "boot": "auto",
   "options": {
+    "system_packages": [],
+    "init_commands": [],
+    "leave_front_door_open": false
   },
   "schema": {
   },
