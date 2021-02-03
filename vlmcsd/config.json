@@ -1,6 +1,6 @@
 {
   "name": "vlmcsd",
-  "version": "1.0.0",
+  "version": "latest",
   "slug": "vlmcsd",
   "description": "vlmcsd is a replacement for Microsofts KMS server.",
   "url": "https://github.com/mikolatero/docker-vlmcsd",
