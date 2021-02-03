@@ -7,3 +7,8 @@ Add [this](https://github.com/greymatter/homeassistant-addons) repository to you
 ## Add-ons:
 
 - [Netbox](https://github.com/greymatter/homeassistant-addons/tree/master/netbox)
+- [vlmcsd](https://github.com/greymatter/homeassistant-addons/tree/master/vlmcsd)
+
+## Notes:
+
+This is test repo for me just learning how to setup dockers on hassio, please take note before installing any of these as they may actually turn your hassio instance into mush or make it burst into flames, you have been warned.
