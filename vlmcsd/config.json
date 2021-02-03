@@ -1,0 +1,23 @@
+{
+  "name": "vlmcsd",
+  "version": "1113-2020-03-28.1",
+  "slug": "vlmcsd",
+  "description": "vlmcsd is a replacement for Microsoft's KMS server.",
+  "url": "https://github.com/greymatter/homeassistant-addons/tree/master/vlmcsd",
+  "image": "mikolatero/vlmcsd",
+  "arch": ["amd64","aarch64"],
+  "startup": "application",
+  "boot": "auto",
+  "options": {
+  },
+  "schema": {
+  },
+  "ports": {
+        "1688/tcp": 1688,
+  },
+  "ports_description": {
+	  "1688/tcp": "KMS",
+  },
+  "init": false,
+  "stage": "experimental"
+}
