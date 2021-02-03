@@ -8,6 +8,8 @@
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "service",
   "boot": "auto",
+  "options": {},
+  "schema": {},
   "ports": {
         "1688/tcp": 1688
   },
