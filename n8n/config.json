@@ -20,7 +20,13 @@
     "keyfile": "privkey.pem",
     "system_packages": [],
     "init_commands": [],
-    "leave_front_door_open": false
+    "leave_front_door_open": false,
+    "DB_TYPE": "postgresdb",
+    "DB_POSTGRESDB_HOST": "",
+    "DB_POSTGRESDB_PORT": "",
+    "DB_POSTGRESDB_USER": "",
+    "DB_POSTGRESDB_SCHEMA": "",
+    "DB_POSTGRESDB_PASSWORD": ""
   },
   "schema": {
     "ssl": "bool",
@@ -28,7 +34,13 @@
     "keyfile": "str",
     "system_packages": ["str"],
     "init_commands": ["str"],
-    "leave_front_door_open": "bool?"
+    "leave_front_door_open": "bool?",
+    "DB_TYPE": "str",
+    "DB_POSTGRESDB_HOST": "str",
+    "DB_POSTGRESDB_PORT": "str",
+    "DB_POSTGRESDB_USER": "str",
+    "DB_POSTGRESDB_SCHEMA": "str",
+    "DB_POSTGRESDB_PASSWORD": "str"
   },
   "ports": {
         "5678/tcp": 5678
