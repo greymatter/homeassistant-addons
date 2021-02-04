@@ -8,6 +8,7 @@ Add [this](https://github.com/greymatter/homeassistant-addons) repository to you
 
 - [NetBox](https://github.com/greymatter/homeassistant-addons/tree/master/netbox)
 - [vlmcsd](https://github.com/greymatter/homeassistant-addons/tree/master/vlmcsd)
+- [n8n](https://github.com/greymatter/homeassistant-addons/tree/master/n8n)
 
 ## Notes:
 
