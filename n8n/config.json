@@ -1,0 +1,21 @@
+{
+  "name": "n8n",
+  "version": "latest",
+  "slug": "n8n",
+  "description": "vlmcsd is a replacement for Microsofts KMS server.",
+  "url": "https://github.com/n8n-io/n8n",
+  "image": "n8nio/n8n",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "ports": {
+        "5678/tcp": 5678
+  },
+  "ports_description": {
+	  "5678/tcp": "n8n"
+  },
+  "init": false,
+  "stage": "experimental"
+}
