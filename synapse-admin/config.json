@@ -12,7 +12,7 @@
   "ingress_port": 0,
   "apparmor": false,
   "panel_icon": "mdi:share-variant",
-  "panel_title": "n8n",
+  "panel_title": "synapse-admin",
   "hassio_api": true,
   "hassio_role": "manager",
   "homeassistant_api": true,
@@ -25,7 +25,7 @@
     "keyfile": "privkey.pem",
     "system_packages": [],
     "init_commands": [],
-    "leave_front_door_open": false,
+    "leave_front_door_open": false
   },
   "schema": {
     "ssl": "bool",
@@ -33,7 +33,7 @@
     "keyfile": "str",
     "system_packages": ["str"],
     "init_commands": ["str"],
-    "leave_front_door_open": "bool?",
+    "leave_front_door_open": "bool?"
   },
   "ports": {
         "80/tcp": 80
