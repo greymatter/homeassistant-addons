@@ -1,0 +1,46 @@
+{
+  "name": "synapse-admin",
+  "version": "latest",
+  "slug": "synapse-admin",
+  "description": "synapse-admin is an app to administer synapse, duh.",
+  "url": "https://github.com/n8n-io/n8n",
+  "image": "awesometechnologies/synapse-admin",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "ingress": true,
+  "ingress_port": 0,
+  "apparmor": false,
+  "panel_icon": "mdi:share-variant",
+  "panel_title": "n8n",
+  "hassio_api": true,
+  "hassio_role": "manager",
+  "homeassistant_api": true,
+  "host_network": true,
+  "auth_api": true,
+  "auto_uart": true,
+  "options": {
+    "ssl": false,
+    "certfile": "fullchain.pem",
+    "keyfile": "privkey.pem",
+    "system_packages": [],
+    "init_commands": [],
+    "leave_front_door_open": false,
+  },
+  "schema": {
+    "ssl": "bool",
+    "certfile": "str",
+    "keyfile": "str",
+    "system_packages": ["str"],
+    "init_commands": ["str"],
+    "leave_front_door_open": "bool?",
+  },
+  "ports": {
+        "80/tcp": 80
+  },
+  "ports_description": {
+	  "80/tcp": "synapse-admin"
+  },
+  "init": false,
+  "stage": "experimental"
+}
