@@ -36,10 +36,12 @@
     "leave_front_door_open": "bool?"
   },
   "ports": {
-        "80/tcp": 80
+        "80/tcp": 80,
+        "8080/tcp": 8080
   },
   "ports_description": {
-	  "80/tcp": "synapse-admin"
+	  "80/tcp": "synapse-admin",
+	  "8080/tcp": "synapse-admin2"
   },
   "init": false,
   "stage": "experimental"
