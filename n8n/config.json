@@ -18,7 +18,7 @@
   "homeassistant_api": true,
   "host_network": true,
   "auth_api": true,
-  "auto_uart": true,
+  "uart": true,
   "options": {
     "ssl": false,
     "certfile": "fullchain.pem",
