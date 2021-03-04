@@ -9,7 +9,7 @@
   "startup": "application",
   "boot": "auto",
   "ingress": true,
-  "ingress_port": 0,
+  "ingress_port": 80,
   "apparmor": false,
   "panel_icon": "mdi:share-variant",
   "panel_title": "synapse-admin",
@@ -18,7 +18,7 @@
   "homeassistant_api": true,
   "host_network": false,
   "auth_api": true,
-  "auto_uart": true,
+  "uart": true,
   "options": {
     "ssl": false,
     "certfile": "fullchain.pem",
