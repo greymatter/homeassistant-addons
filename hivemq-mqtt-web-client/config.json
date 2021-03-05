@@ -1,6 +1,6 @@
 {
   "name": "hivemq-mqtt-web-client",
-  "version": "3.5",
+  "version": "latest",
   "slug": "hivemq-mqtt-web-client",
   "description": "hivemq-mqtt-web-client is an app to view mqtt pub/sub info.",
   "url": "https://github.com/hivemq/hivemq-mqtt-web-client",
