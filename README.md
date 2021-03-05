@@ -7,9 +7,10 @@ Add [this](https://github.com/greymatter/homeassistant-addons) repository to you
 ## Add-ons:
 
 - [NetBox](https://github.com/greymatter/homeassistant-addons/tree/master/netbox)
-- [vlmcsd](https://github.com/greymatter/homeassistant-addons/tree/master/vlmcsd)
+- [vlmcsd](https://github.com/greymatter/homeassistant-addons/tree/master/vlmcsd) *WORKING*
 - [n8n](https://github.com/greymatter/homeassistant-addons/tree/master/n8n)
-- [synapse-admin](https://github.com/greymatter/homeassistant-addons/tree/master/synapse-admin)
+- [synapse-admin](https://github.com/greymatter/homeassistant-addons/tree/master/synapse-admin) *WORKING*
+- [hivemq-mqtt-web-client](https://github.com/greymatter/homeassistant-addons/tree/master/hivemq-mqtt-web-client)
 
 ## Notes:
 
