@@ -9,7 +9,7 @@
   "startup": "application",
   "boot": "auto",
   "ingress": true,
-  "ingress_port": 80,
+  "ingress_port": 8088,
   "apparmor": false,
   "panel_icon": "mdi:share-variant",
   "panel_title": "Cedalo-Mgmt-Center",
