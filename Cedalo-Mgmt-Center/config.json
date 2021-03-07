@@ -19,6 +19,7 @@
   "host_network": false,
   "auth_api": true,
   "uart": true,
+  "map": ["share:rw", "ssl"],
   "options": {
     "ssl": false,
     "certfile": "fullchain.pem",
