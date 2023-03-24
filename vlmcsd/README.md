@@ -1,4 +1,4 @@
-# Home Assistant Add-on: [vlmcsd](https://www.pgadmin.org/)
+# Home Assistant Add-on: [vlmcsd](https://github.com/mikolatero/docker-vlmcsd)
 
 ## Introduction
 
