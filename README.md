@@ -15,6 +15,6 @@ Add [this](https://github.com/greymatter/homeassistant-addons) repository to you
 
 ## Notes:
 
-This is a test repo for me just playing dockers on hassio, please take note before installing any of these as they may actually turn your hassio instance into mush or make it burst into flames, you have been warned.
+This is a test repo for me just playing around with docker on hassio, please take note before installing any of these as they may actually turn your hassio instance into mush or make it burst into flames, you have been warned.
 
 VLMCSD and snapse-admin do work like a champs though... still might burn your house down.
