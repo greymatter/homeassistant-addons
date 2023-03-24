@@ -2,7 +2,7 @@
   "name": "Cedalo-Mgmt-Center",
   "version": "2.1.0",
   "slug": "Cedalo-Mgmt-Center",
-  "description": "Cedalo-Mgmt-Center is an app to administer synapse, duh.",
+  "description": "Cedalo-Mgmt-Center is an app to administer mosquitto.",
   "url": "https://github.com/cedalo/management-center",
   "image": "cedalo/management-center",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
