@@ -1,6 +1,6 @@
 {
   "name": "synapse-admin",
-  "version": "0.7.0",
+  "version": "0.8.7",
   "slug": "synapse-admin",
   "description": "synapse-admin is an app to administer synapse, duh.",
   "url": "https://github.com/Awesome-Technologies/synapse-admin",
