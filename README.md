@@ -2,7 +2,7 @@
 
 ## Installation:
 
-Add [this](https://github.com/greymatter/homeassistant-addons) repository to your Home Assistant instance. (i would not do this if i we're you...)
+Add [this](https://github.com/greymatter/homeassistant-addons) repository to your Home Assistant instance.
 
 ## Add-ons:
 
@@ -15,6 +15,6 @@ Add [this](https://github.com/greymatter/homeassistant-addons) repository to you
 
 ## Notes:
 
-This is test repo for me just learning how to setup dockers on hassio, please take note before installing any of these as they may actually turn your hassio instance into mush or make it burst into flames, you have been warned.
+This is a test repo for me just playing dockers on hassio, please take note before installing any of these as they may actually turn your hassio instance into mush or make it burst into flames, you have been warned.
 
-VLMCSD does work like a champ though... still might burn your house down.
+VLMCSD and snapse-admin do work like a champs though... still might burn your house down.
