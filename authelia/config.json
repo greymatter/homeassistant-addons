@@ -1,0 +1,43 @@
+{
+  "name": "Authelia",
+  "version": "4.37.5",
+  "slug": "Authelia",
+  "description": "Authelia is an open-source authentication and authorization server providing two-factor authentication and single sign-on (SSO) for your applications via a web portal.",
+  "url": "https://github.com/authelia/authelia",
+  "image": "authelia/authelia",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "apparmor": false,
+  "hassio_api": true,
+  "hassio_role": "manager",
+  "homeassistant_api": true,
+  "host_network": false,
+  "auth_api": true,
+  "uart": true,
+  "map": ["share:rw", "authelia"],
+  "options": {
+    "ssl": false,
+    "certfile": "fullchain.pem",
+    "keyfile": "privkey.pem",
+    "system_packages": [],
+    "init_commands": [],
+    "leave_front_door_open": false
+  },
+  "schema": {
+    "ssl": "bool",
+    "certfile": "str",
+    "keyfile": "str",
+    "system_packages": ["str"],
+    "init_commands": ["str"],
+    "leave_front_door_open": "bool?"
+  },
+  "ports": {
+        "9091/tcp": 9091
+  },
+  "ports_description": {
+	  "9091/tcp": "authelia"
+  },
+  "init": false,
+  "stage": "experimental"
+}
