@@ -15,7 +15,6 @@
   "host_network": false,
   "auth_api": true,
   "uart": true,
-  "map": ["share:rw", "authelia"],
   "map": ["config", "media:rw", "share:rw", "ssl"],
   "options": {
     "ssl": false,
