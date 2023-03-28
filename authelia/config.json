@@ -16,7 +16,6 @@
   "auth_api": true,
   "uart": true,
   "map": ["share:rw"],
-  },
   "ports": {
         "9091/tcp": 9091
   },
