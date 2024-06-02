@@ -1,0 +1,16 @@
+name: "TFTP server"
+description: "tftp server for ios backups"
+version: "1.0.1"
+slug: "tftp"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+
+map: ["share"]
+
+ports:
+  69/udp: 69
