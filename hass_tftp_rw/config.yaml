@@ -1,6 +1,6 @@
 name: "TFTP server"
 description: "tftp server for ios backups"
-version: "1.0.1"
+version: "1.0.2"
 slug: "tftp"
 init: false
 arch:
