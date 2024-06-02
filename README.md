@@ -12,6 +12,7 @@ Add [this](https://github.com/greymatter/homeassistant-addons) repository to you
 - [synapse-admin](https://github.com/greymatter/homeassistant-addons/tree/master/synapse-admin) *WORKING*
 - [hivemq-mqtt-web-client](https://github.com/greymatter/homeassistant-addons/tree/master/hivemq-mqtt-web-client)
 - [Cedalo-Mgmt-Center](https://github.com/greymatter/homeassistant-addons/tree/master/Cedalo-Mgmt-Center)
+- [hass_tftp_rw](https://github.com/greymatter/homeassistant-addons/tree/master/hass_tftp_rw)
 
 ## Notes:
 
