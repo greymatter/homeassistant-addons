@@ -4,7 +4,7 @@
   "slug": "isy99",
   "description": "ISY99 Admin Console via docker.",
   "url": "https://github.com/therealmysteryman/isy994-adminconsole-docker",
-  "image": "therealmysteryman/isy994-adminconsole-docker",
+  "image": "automationgeek/isy994-adminconsole-docker",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "boot": "auto",
