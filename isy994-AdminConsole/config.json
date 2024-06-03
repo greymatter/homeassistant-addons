@@ -1,6 +1,6 @@
 {
   "name": "ISY99 Admin Console",
-  "version": "1.0.2",
+  "version": "latest",
   "slug": "isy99",
   "description": "ISY99 Admin Console via docker.",
   "url": "https://github.com/greymatter/homeassistant-addons/tree/main/isy994-AdminConsole",
