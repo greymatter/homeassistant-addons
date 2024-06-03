@@ -3,7 +3,7 @@
   "version": "latest",
   "slug": "isy99",
   "description": "ISY99 Admin Console via docker.",
-  "url": "https://github.com/greymatter/homeassistant-addons/tree/main/isy994-AdminConsole",
+  "url": "https://github.com/jlesage/docker-baseimage-gui",
   "image": "jlesage/baseimage-gui",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
