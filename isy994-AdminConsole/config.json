@@ -9,7 +9,7 @@
   "startup": "application",
   "boot": "auto",
   "options": {
-    "ISY994_HOST": ""
+    "ISY994_HOST": "10.0.15.68"
   },
   "schema": {
     "ISY994_HOST": "str"
