@@ -9,10 +9,10 @@
   "startup": "application",
   "boot": "auto",
   "options": {
-    "ISY_HOST": ""
+    "ISY994_HOST": ""
   },
   "schema": {
-    "ISY_HOST": "str"
+    "ISY994_HOST": "str"
   },
   "ports": {
         "5800/tcp": 5800,
