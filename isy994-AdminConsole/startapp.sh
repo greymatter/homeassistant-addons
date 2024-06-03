@@ -1,5 +1,5 @@
 #!/bin/sh
-ISY994_HOST='10.0.15.68'
+ISY994_HOST=$ISY_HOST
 GREEN='\033[0;32m'
 RED='\033[0;31m'
 NC='\033[0m'
@@ -19,7 +19,7 @@ cd /app
 if [ ! -f app/admin.jnlp ]; then
     echo "Downloading admin.jnlp"
 
-    wget -O admin.jnlp http://10.0.15.68/admin.jnlp
+    wget -O admin.jnlp http://${ISY994_HOST}/admin.jnlp
 
     if [ ! $? -eq 0 ]; then
         echo "${RED}Failed to download admin.jnlp, please check your settings${NC}"
