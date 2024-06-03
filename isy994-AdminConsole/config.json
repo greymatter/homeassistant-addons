@@ -1,0 +1,26 @@
+{
+  "name": "ISY99 Admin Console",
+  "version": "latest",
+  "slug": "isy99",
+  "description": "ISY99 Admin Console via docker.",
+  "url": "https://github.com/jlesage/docker-baseimage-gui",
+  "image": "jlesage/baseimage-gui",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "ports": {
+        "5800/tcp": 5800,
+        "5900/tcp": 5900
+  },
+  "ports_description": {
+	  "5800/tcp": "HTTP",
+    "5900/tcp": "VNC"
+  },
+  "init": false,
+  "stage": "experimental"
+}
+
+
+
