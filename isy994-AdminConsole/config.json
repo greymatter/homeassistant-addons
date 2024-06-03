@@ -1,15 +1,19 @@
 {
   "name": "ISY99 Admin Console",
-  "version": "latest",
+  "version": "1.0.2",
   "slug": "isy99",
   "description": "ISY99 Admin Console via docker.",
-  "url": "https://github.com/jlesage/docker-baseimage-gui",
+  "url": "https://github.com/greymatter/homeassistant-addons/tree/main/isy994-AdminConsole",
   "image": "jlesage/baseimage-gui",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
   "boot": "auto",
-  "options": {},
-  "schema": {},
+  "options": {
+    "ISY_HOST": ""
+  },
+  "schema": {
+    "ISY_HOST": "str"
+  },
   "ports": {
         "5800/tcp": 5800,
         "5900/tcp": 5900
